@@ -2,16 +2,37 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: aquamarine;
+    font-family: rgb(171, 21, 171);
+}
 .entirepage{
-    display: flex;
-    width: 100vh;
+    display: grid;
+    border: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border-color: brown;
+    width: 100vw;
     height: 100vh;
     background-color: rgb(174, 127, 255);
+    /* border: 40px; */
+}
+form{
+    position: relative;
+    margin: 20px;
+    /* border: solid 4px grey;
+    border-radius: 10px; */
+
 }
 button {
-    border: 15px;
+    /* border: 15px;
     border-radius:3px ;
-    padding: 20px;
+    padding: 20px; */
     background-color: hsl(259, 100%, 65%);
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-left: 20px;
     }
-    
